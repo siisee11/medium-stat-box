@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Update gist
         uses: kylemocode/medium-stat-box@master
-        env:
+        env: 
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MEDIUM_USER_NAME: ${{ secrets.MEDIUM_USER_NAME }}
